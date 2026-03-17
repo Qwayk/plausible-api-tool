@@ -1,0 +1,34 @@
+{
+  "applied_at_utc": "2026-02-02T00:00:05Z",
+  "changed": true,
+  "command": "event send",
+  "diff_applied": [
+    {
+      "action": "plausible.events.send",
+      "sent": {
+        "domain": "example.com",
+        "name": "member_gate_cta_click",
+        "url": "https://example.com/pricing"
+      }
+    }
+  ],
+  "env_fingerprint": {
+    "base_url": "https://plausible.io",
+    "site_id": "example.com"
+  },
+  "rollback_plan": null,
+  "selector": {
+    "domain": "example.com",
+    "name": "member_gate_cta_click",
+    "url": "https://example.com/pricing"
+  },
+  "tool": "plausible-api-tool",
+  "verification": {
+    "details": {
+      "ok": false,
+      "reason": "best-effort verification not requested"
+    },
+    "ok": null
+  },
+  "version": "0.1.0"
+}
