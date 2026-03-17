@@ -45,3 +45,8 @@ plausible-api-tool --env-file .env auth check
 
 - `skills/plausible-api-safe-cli/SKILL.md`
 - `docs/skills_wrappers.md`
+
+## Qwayk
+
+- Start here: https://github.com/Qwayk/start-here
+- Sponsor: https://github.com/sponsors/Qwayk
