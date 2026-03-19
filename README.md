@@ -1,29 +1,44 @@
-# plausible-api-tool
+# Plausible Analytics tool for AI agents
 
-Small, safe CLI for the Plausible Analytics **Stats API** and **Events API**.
+This is a public Qwayk proof repo.
 
-Designed to be safe-by-default (dry-run, explicit apply gates, and machine-readable output).
+It gives AI agents a safer way to work with Plausible Analytics.
+This repo matters because it shows the full Qwayk safety model, not just read-only access.
 
-## Docs
+## What this tool is for
 
-## For non-technical users: Start here (no coding)
+Use this when you want an agent to help with Plausible work like:
+- traffic reports
+- top pages and sources
+- goal reporting
+- event workflows that require explicit approval
 
-Start with these docs:
+## Why this repo is public
 
-- Use cases (ideas + benefits): `docs/use_cases.md`
-- Onboarding (setup + what to ask your agent): `docs/onboarding.md`
-- Safety model (how we prevent mistakes): `docs/safety_model.md`
+This repo shows the Qwayk model clearly:
+- plan first
+- writes require explicit approval
+- verify after apply
+- keep a receipt
 
-What you can ask an AI agent to do (examples):
+If you want to understand Qwayk fast, this is one of the best repos to read.
 
-- “Give me a weekly traffic report (top pages, sources, and goals).”
-- “Build a membership funnel report for the last 30 days.”
-- “Validate this Stats query JSON and then run it.”
-- “Send a test event only if I explicitly approve (writes analytics).”
+## For non-technical users
 
-## For technical users: Start here (CLI)
+Start here:
+- `docs/use_cases.md`
+- `docs/onboarding.md`
+- `docs/safety_model.md`
 
-Full references:
+Example things to ask your agent:
+- “Give me a weekly traffic report.”
+- “Show me top pages and traffic sources for the last 30 days.”
+- “Validate this query before running it.”
+- “Send a test event only if I approve it.”
+
+## For technical users
+
+Start here:
 - `docs/quickstart.md`
 - `docs/command_reference.md`
 
@@ -34,19 +49,13 @@ plausible-api-tool --version
 plausible-api-tool --env-file .env auth check
 ```
 
-## Proof pack (customer-ready)
+## Skills and wrappers
 
-- `docs/proof.md`
-- `docs/references.md`
-- `docs/api_coverage.md`
-- `docs/examples/`
-
-## Skills wrapper
-
+This tool ships with a skill wrapper for agent runtimes that support skills:
 - `skills/plausible-api-safe-cli/SKILL.md`
 - `docs/skills_wrappers.md`
 
 ## Qwayk
 
-- Start here: https://github.com/Qwayk/start-here
-- Sponsor: https://github.com/sponsors/Qwayk
+- Start here: `https://github.com/Qwayk/start-here`
+- Sponsor Qwayk: `https://github.com/sponsors/Qwayk`
